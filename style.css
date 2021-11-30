@@ -1,0 +1,84 @@
+body {
+    background: rgb(255, 205, 205);
+}
+
+.title-box {
+    font-family: 'cursive', cursive;
+    position: relative;
+    top: -825px;
+    background: white;
+    margin: 545px;
+    padding: 10px;
+}
+
+.leButton {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+.img {
+    margin: 0;
+    padding: 0;
+    opacity: 0.5;
+    display: flex;
+    animation: glisse 15s infinite ease;
+    position: relative;
+    top: -9px;
+    height: 550px;
+}
+
+@keyframes glisse {
+
+    0%{
+        transform: translateX(0);
+    }
+
+    22%{
+        transform: translateX(-80px);
+    }
+
+    33%{
+        transform: translateX(-400px);
+    }
+
+    55%{
+        transform: translateX(-80px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+
+}
+
+.container {
+    display: flex;
+}
+
+.h1 {
+    position: relative;
+    top: 310px;
+    color: rgb(255, 247, 0);
+}
+
+.head {
+    padding: 35px;
+    position: relative;
+    top: 330px;
+    height: 330px;
+    font-size: 25px;
+    width: 520px;
+    background: white;
+}
+
+.im {
+    width: 500px;
+    height: 400px;
+}
+
+.container {
+    position: relative;
+    top: -1500px;
+    justify-content: center;
+}
