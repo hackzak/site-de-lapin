@@ -9,12 +9,17 @@ body {
     background: white;
     margin: 545px;
     padding: 10px;
+    width: 50vh;
 }
 
 .leButton {
     text-decoration: none;
     color: black;
     font-size: 40px;
+}
+
+.text-box {
+    justify-content: center;
 }
 
 .img {
@@ -26,6 +31,7 @@ body {
     position: relative;
     top: -9px;
     height: 550px;
+    width: 1000vh;
 }
 
 @keyframes glisse {
